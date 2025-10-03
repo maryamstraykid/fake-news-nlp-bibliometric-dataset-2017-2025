@@ -20,7 +20,7 @@ Two Colab notebooks are included in this repository to make the dataset fully re
    - Filters incomplete records (missing authors, conference/journal name, abstract, DOI)  
    - Converts the `Year` field into integer format  
 
-2. **Bibliometric Analysis & Visualizations (`bibliometric_analysis_and_visualisation.ipynb`)**  
+2. **Bibliometric Analysis & Visualizations (`bibliometric_analysis_and_visualization.ipynb`)**  
    - Removes duplicates and filters out years with only one publication  
    - Provides descriptive statistics, including:  
      - Total number of publications, unique authors, average docs per author  
