@@ -12,7 +12,7 @@ Note: Some non-essential metadata fields may remain incomplete due to variations
 
 Two Colab notebooks are included in this repository to make the dataset fully reproducible and easy to explore:  
 
-1. **Data Cleaning & Merging (`Articles_data_cleaning_and_merge.ipynb`)**  
+1. **Data Cleaning & Merging (`data_cleaning_and_merge.ipynb`)**  
    - Adds citation counts to each record  
    - Performs data cleaning depending on the source (Scopus, Web of Science, Google Scholar, IEEE)  
    - Drops unnecessary columns and standardizes column names  
@@ -20,7 +20,7 @@ Two Colab notebooks are included in this repository to make the dataset fully re
    - Filters incomplete records (missing authors, conference/journal name, abstract, DOI)  
    - Converts the `Year` field into integer format  
 
-2. **Bibliometric Analysis & Visualizations (`bibliometric_analysis_and_viz.ipynb`)**  
+2. **Bibliometric Analysis & Visualizations (`bibliometric_analysis_and_visualisation.ipynb`)**  
    - Removes duplicates and filters out years with only one publication  
    - Provides descriptive statistics, including:  
      - Total number of publications, unique authors, average docs per author  
